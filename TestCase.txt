@@ -1,0 +1,27 @@
+	 Three way i will test this program
+	 
+	
+	  way 1: first, I create a main method and  getTheGallonsToConvert()to convert
+	  specific number. Then I Initialized a variable called gallons and then assign a value
+	  5 with that variable. after that, I called "getTheGallonsToConvert" method  
+	  in side the main method. Then, I run the program and saw in the Console
+	  output 18.92705 liters converted
+	  
+	 
+	   After Code modifications:
+	  
+	  way 2: First, I Create getTheGallonsToConvertAfterModify() to Modify code.
+	  Then I modify code to get input from user. In case, i use Scanner Class .
+	  I called getTheGallonsToConvertAfterModify() method in main method and I run
+	  this program by right clicking in the class as java Application. after
+	  that, in the console as input I typed 40 then hit enter. finally, i can see
+	  151.4164 Liters in the console as output
+	 
+
+	
+	  way 3.Boundary Value Analysis By using this technique we can decide length of
+	  the input. First, I called getTheGallonsToConvert method in main method and I run
+	  this program by right clicking in the class, then run as java program. after
+	  that, in the console as input I typed 999999 then hit enter. finally, i can see
+	  3785406.21459 Liters in the console as output
+	 
