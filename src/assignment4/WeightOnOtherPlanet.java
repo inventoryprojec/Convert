@@ -35,6 +35,7 @@ public class WeightOnOtherPlanet {
 		}
 		case "Saturn": {
 			double weightOnSaturn = yourWeightOnEarth * 0.92;
+			return weightOnSaturn;
 
 		}
 		case "Uranus": {
@@ -44,7 +45,7 @@ public class WeightOnOtherPlanet {
 		case "Neptune": {
 
 			double weightOnNeptune = yourWeightOnEarth * 1.13;
-			return weightOnNeptune;
+			return weightOnNeptune;// missing return
 		}
 
 		default: {
