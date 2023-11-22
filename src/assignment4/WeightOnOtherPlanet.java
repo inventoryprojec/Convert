@@ -45,7 +45,7 @@ public class WeightOnOtherPlanet {
 		case "Neptune": {
 
 			double weightOnNeptune = yourWeightOnEarth * 1.13;
-			return weightOnNeptune;
+			return weightOnNeptune;// missing return
 		}
 
 		default: {
