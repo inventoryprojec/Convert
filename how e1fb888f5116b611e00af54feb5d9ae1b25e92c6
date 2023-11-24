@@ -1,0 +1,51 @@
+[33mcommit e1fb888f5116b611e00af54feb5d9ae1b25e92c6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtwigOne[m[33m, [m[1;31morigin/twigOne[m[33m)[m
+Merge: f86def7 a32fbe1
+Author: molla <mollaruhul@outlook.com>
+Date:   Tue Nov 21 21:34:05 2023 -0500
+
+    Merge branch 'master' of github.com:inventoryprojec/Convert into twigOne
+
+[33mcommit f86def7d45d6cfb3f1a03300bb9886815cec49c6[m
+Author: molla <mollaruhul@outlook.com>
+Date:   Tue Nov 21 21:33:38 2023 -0500
+
+    main has been added to WeighgtOnOtherPlanet_Int.java
+
+[33mcommit a32fbe1fbb340429b7f1118eb9f0bcb932a2ebc2[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: c98eb70 d1eaab2
+Author: inventoryprojec <151583997+inventoryprojec@users.noreply.github.com>
+Date:   Tue Nov 21 20:56:25 2023 -0500
+
+    Merge pull request #1 from inventoryprojec/twigOne
+    
+    Twig one Planet class modified and missing line has been added
+
+[33mcommit d1eaab2dc7c3309ed143de2a2b47b7349e03ed3a[m
+Author: molla <mollaruhul@outlook.com>
+Date:   Tue Nov 21 20:53:37 2023 -0500
+
+    WeighgtOnOtherPlanet_Int.java has been created
+
+[33mcommit 4919c590370a891af5884458905e59bff9c8e61f[m
+Author: molla <mollaruhul@outlook.com>
+Date:   Tue Nov 21 19:47:39 2023 -0500
+
+    new line of code been added
+
+[33mcommit 7b4889190a5f727a855ba71d345ac5c897297d2c[m
+Author: molla <mollaruhul@outlook.com>
+Date:   Tue Nov 21 19:25:41 2023 -0500
+
+    return weightNaptune modified
+
+[33mcommit c98eb7093c3aae86ac009d9882445de5c22b1a06[m
+Author: molla <mollaruhul@outlook.com>
+Date:   Tue Nov 21 18:39:42 2023 -0500
+
+    comments added in the main mathods
+
+[33mcommit af7c879b4d2fcdba18226850e1401f07658dfebd[m
+Author: molla <mollaruhul@outlook.com>
+Date:   Tue Nov 21 17:57:47 2023 -0500
+
+    first commit
