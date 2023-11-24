@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArrayDuplicate {
 	public static void main(String[] args) {
 
-		// usingint_Obj();
+		usingint_Obj();
 		findDuplicateEleFrom();
 	}
 
@@ -15,7 +15,7 @@ public class ArrayDuplicate {
 		System.out.println("Enter your Size of array");
 		int n = in.nextInt();
 		int a[] = new int[n];
-		System.err.println("Enter " + n + "FS array element");
+		System.out.println("Enter " + n + " array element");
 		for (int i = 0; i < n; i++) {
 			a[i] = in.nextInt();
 		}
@@ -35,7 +35,7 @@ public class ArrayDuplicate {
 		for (int i = 0; i < num.length; i++) {
 			for (int j = i + 1; j < num.length; j++) {
 				if (num[i] == num[j]) {
-					System.out.println(num[i] + " is the duplicate Element in the int array");
+					//System.out.println(num[i] + " is the duplicate Element in the int array");
 					count++;
 				}
 
