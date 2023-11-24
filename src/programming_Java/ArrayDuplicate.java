@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class ArrayDuplicate {
 	public static void main(String[] args) {
 
-		usingint_Obj();
-		findDuplicateEleFrom();
+		// usingint_Obj();
+		// findDuplicateEleFrom();
+		findDuplicateFromStringArray();
 	}
 
 	public static void usingint_Obj() {
@@ -35,7 +36,7 @@ public class ArrayDuplicate {
 		for (int i = 0; i < num.length; i++) {
 			for (int j = i + 1; j < num.length; j++) {
 				if (num[i] == num[j]) {
-					//System.out.println(num[i] + " is the duplicate Element in the int array");
+					// System.out.println(num[i] + " is the duplicate Element in the int array");
 					count++;
 				}
 
@@ -46,4 +47,18 @@ public class ArrayDuplicate {
 		return count;
 	}
 
+	public static void findDuplicateFromStringArray() {
+		String[] fruits = { "Apple", "Orange", "Banana", "Mango", "Peach", "Banana" };
+		int len = fruits.length;
+		System.out.println("lenth of string is : " + len);
+		for (int i = 0; i < fruits.length; i++) {
+			for (int j = i + 1; j < fruits.length; j++) {
+				if (fruits[i] == fruits[j]) {
+
+					System.out.println(fruits[i] + " is duplicate fruit");
+				}
+			}
+		}
+
+	}
 }
