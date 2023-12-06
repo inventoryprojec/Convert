@@ -8,11 +8,22 @@ public class WeightOnOtherPlanet {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter your weight on Earth");
 		double weightOnEarth = in.nextDouble();
-		System.out.println("type your planet Name");
+		printListOfPlannet();//
+		System.out.println("type a planet Name where you want to see your weight" + "(note:Case sensitive)");
 		String choicePlanet = in.next();
 		double weightOnOtherPlanet = checkYourWeightONOtherPLanet(choicePlanet, weightOnEarth);
 		System.out.println("Your Weight On " + choicePlanet + " is " + weightOnOtherPlanet + " lbs");
 		in.close();
+	}
+
+	public static void printListOfPlannet() {
+		System.out.println("List Of Plennet here : ");
+		String listOfPlannet[] = { "Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune" };
+		for (int i = 0; i < listOfPlannet.length; i++) {
+			System.out.println(listOfPlannet[i]);
+
+		}
+
 	}
 
 	public static double checkYourWeightONOtherPLanet(String yourPlanet, double yourWeightOnEarth) {
